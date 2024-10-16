@@ -23,11 +23,39 @@ Installation
 To run this project locally, follow these steps:
 
 **HOW TO RUN:**
+**Prerequisites**
+To run this project, you'll need:
+
+Node.js installed on your machine
+Basic knowledge of JavaScript and command line usage
+
+**Install Dependencies**
+
+If you are using any Node.js packages, run the following command to install them:
 Clone the repository to your local machine.
+npm install
+
+**Run the Server**
+
+Start your Node.js server by running:
+node server.js
+
+This will start the server on http://localhost:3000 by default.
+
+**Open the Application in Your Browser**
+Open your web browser and navigate to:
+http://localhost:3000
+
+You should see the interactive crime map. Use the search box to find locations in London and view crime data.
+
+
+
 Navigate to the project directory.
 Install dependencies (if any) and run the server (e.g., using Node.js).
 Open index.html in your browser to view the map and start searching for locations in London.
-Contributing
+
+
+**Contributing**
 Contributions are welcome! If you would like to improve the project or add new features, please submit a pull request.
 
 License
